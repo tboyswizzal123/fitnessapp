@@ -1,0 +1,616 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+
+
+body{
+    background-image: url('./components/pictures/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.x{
+  margin-right: 1;
+}
+
+.squack{
+  margin-left: 3rem;
+  width: 20rem;
+  height: 3rem;
+}
+
+
+.reck{
+  height:19.5rem;
+  width:76vw;
+  background-color: rgb(185, 185, 185);
+  border:2px solid rgb(142, 142, 142);
+  display: flex;
+}
+
+
+
+
+
+.stig{
+  margin-left: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  background-color: rgb(185, 185, 185);
+  border:2px solid rgb(142, 142, 142);
+}
+
+.recky{
+  display: flex;
+  margin-top: 9rem;
+  height:30rem;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-color:#273564;
+}
+
+
+@media (max-width: 990px) {
+  .recky {
+    flex-direction: column;
+    height:50rem;
+  }
+}
+
+
+
+@media (max-width: 500px) {
+  .profileCard {
+    display:none;
+
+  }
+}
+
+@media (max-width: 990px) {
+  .skillz {
+    display:none;
+
+  }
+}
+
+
+
+.reckyT{
+  display: flex;
+  justify-content: center;
+  height:25rem;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+  background-color:#06557e;
+
+}
+
+@media (max-width: 480px) {
+  .reck {
+    width:30rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .profileCard {
+    display:none;
+  }
+}
+
+@media (max-width: 530px) {
+  .reckyT {
+    
+    flex-direction: column;
+    height:50rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .fix {
+    margin-left:1rem;
+    width:50%;
+  }
+}
+
+
+.sh{
+    font-size: 200%;
+    color:white;
+}
+
+.kimg{
+  position:0;
+}
+
+.ph{
+    font-size:110%;
+    color: rgb(161, 161, 161);
+    margin-top: 1rem;
+}
+
+h1{
+    font-size: 500%;
+    color: rgb(19, 1, 27);
+    padding-top: 5rem;
+}
+
+.he1{
+  font-size: 500%;
+  color: rgb(19, 1, 27);
+
+}
+.sand{
+  padding-top:23rem;
+}
+
+h2{
+    font-size: 250%;
+    color:rgb(19, 1, 27)
+}
+
+
+p{
+    font-size: 200%;
+    color:rgb(19, 1, 27);
+    font-weight: 750;
+    font-style: oblique;
+}
+
+.navbar{
+    height:3.5rem;
+    width:100%;
+}
+
+@media (max-width: 990px) {
+  .navbarbrand {
+    display: none;
+  }
+}
+@media (max-width: 990px) {
+  .navbarpic {
+    display: none;
+  }
+}
+
+.goat{
+  height:80vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-height: 520px) {
+  .textz{
+
+    display:none;
+
+  }
+}
+
+
+
+
+@media (max-height: 700px) {
+  .textz{
+    position: relative;
+    bottom:200px;
+  }
+}
+
+
+@media (max-height: 700px) {
+  .squack{
+    position: relative;
+    bottom:200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .textz{
+    position: relative;
+    bottom:250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .squack{
+    position: relative;
+    bottom:250px;
+  }
+}
+
+
+
+.cross{
+  height:50vh;
+  width:100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media (max-width: 990px) {
+  .goat{
+    font-size: 10px;
+  }
+}
+
+
+
+li{
+    padding-right: 1rem;
+    font-size: large;
+}
+
+.mr-n3 {
+    margin-left: -3.5rem !important;
+  }
+
+.mt-10 {
+    margin-top: 10rem
+}
+
+.ms-10 {
+  margin-left: 15rem;
+  margin-top:5rem;
+}
+
+.ms-9 {
+  margin-left: 15rem;
+  margin-top:0rem;
+}
+
+.ms-8 {
+  margin-left: 10rem;
+  margin-top:3.5rem;
+}
+
+.ms-7{
+  margin-left: 23rem;
+}
+
+.par {
+    font-size: smaller;
+    width:40%;
+    margin-left: 10rem;
+}
+
+.cruz {
+    margin-left:5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card.cool {
+  background-image: url('./components/pictures/background.jpg');
+  margin-top: 2rem;
+  width:40rem;
+  height:19rem;
+  margin-bottom: 2rem;
+}
+
+.limg {
+    size:100%;
+    display: flex;
+    margin-top: 10rem;
+    align-items: center;
+}
+
+.befaf {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+    align-items: center;
+}
+
+.calc {
+    width:60rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.smalleri{
+    width: 10rem;
+    height: 2rem;
+}
+
+.smallie{
+    width: 10.5rem;
+    height: 2rem;
+}
+
+.dropdown-toggle.kek{
+    width:20rem;
+}
+
+.but{
+    width:20rem;
+}
+
+.submissionfield{
+    height: 10rem;
+
+}
+
+.cal{
+    margin-left: 1rem;
+    width: 15rem;
+}
+
+.addMeal{
+    margin-left: 8.5rem;
+}
+
+.list{
+    margin-top:1rem;
+    margin-left:3rem;
+    width:50rem;
+    height:2.5rem;
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+    border:1px solid;
+    font-size: larger;
+    display:flex;
+    
+}
+
+.liste{
+    list-style: none
+}
+
+.delete{
+    margin-left: auto;
+}
+
+.workout{
+    margin-left: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 40rem;
+    min-height:20rem;
+    outline: 5px solid green;
+
+}
+
+.workoutT{
+  margin-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 40rem;
+  min-height:20rem;
+  outline: 5px solid red;
+
+}
+
+.tucky{
+  width:24rem;
+  max-height:20rem;
+  outline: 1px solid black;
+  margin-top: 3rem;
+}
+
+.shh{
+    font-size: 200%;
+    color:white;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+.shhhh{
+  font-size: 200%;
+  color:white;
+  margin-left: 4.5rem;
+  margin-top: 2rem;
+}
+
+.lister{
+    width:20rem;
+    font-size: larger;
+    display:flex;
+    flex-direction: column;
+    outline:1px solid black;
+}
+
+.shhh{
+    font-size: 200%;
+    color:white;
+    margin-left:7rem;
+    margin-top: 7rem;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    color: #212121;
+  }
+  
+  .changeMonth {
+    margin: 0px 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .currentMonth {
+    margin-left: 24px;
+    font-size: 24px;
+  }
+  
+  .weekContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .day {
+    margin: 12px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  .weekNames {
+    color: #9e9e9e;
+    cursor: default;
+  }
+  
+  .inactiveDay {
+    color: #9e9e9e;
+  }
+  .today {
+    background: #efefee;
+    border-radius: 50%;
+  }
+  
+  .selectedDay {
+    color: white;
+    background: #3366ff;
+    border-radius: 50%;
+  }
+  
+  .navIcon {
+    color:#212121;
+    width: 35px;
+    height: 35px;
+    padding: 2px;
+    cursor: pointer;
+  }
+  
+  .navIcon:hover {
+    border-radius: 50%;
+    background: #efefee;
+  }
+  
+  .todayButton {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .todayButton:hover {
+    background: #efefef;
+  }
+
+  .cale{
+    background-color:#ffffff;
+  }
+
+
+  .card.coole {
+    background-image: url('./components/pictures/background.jpg');
+    margin-top: 2rem;
+    width:40rem;
+    height:15rem;
+    margin-bottom: 1rem;
+
+}
+
+.card.cooler {
+  background-image: url('./components/pictures/background.jpg');
+  width:70rem;
+  height:40rem;
+  margin-bottom: 5rem;
+}
+
+.x{
+  font-size: 300%;
+  color: rgb(19, 1, 27);
+  font-weight: 700;
+  margin-left: 1rem;
+}
+
+
+.left{
+  font-size: 100%;
+  color: rgb(19, 1, 27);
+  font-weight: 300;
+}
+
+.right{
+  font-size: 100%;
+  color: rgb(19, 1, 27);
+  font-weight: 300;
+  margin-right: 10rem;
+  margin-top: 10rem;
+  position:absolute;
+  top:0px;
+  right:0px
+}
+
+.kimg{
+
+  size:50;
+}
+
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid red;
+}
+
+.side{
+  margin-top: 3.5rem;
+  height:46rem;
+  max-width:24rem;
+  background-color:#241e5a;
+  
+}
+
+button{
+  background-color:#241e5a;
+}
+
+.sideR{
+  height:4rem;
+  width:100%;
+  text-align:start;
+}
+
+.sideR:hover{
+  background-color: #2c2668;
+}
+
+.cunt{
+  background-color: #39367d;
+  width:60rem;
+  height: 40rem;
+  margin-left: 6rem;
+  margin-top: 5rem;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+::-webkit-scrollbar{
+  width:10px; 
+}
+
+::-webkit-scrollbar-track{
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 10px;
+}
+
+
+.sucky{
+  width: 20rem;
+  min-height: 0rem;
+  background-color:#4b4988;
+}
